@@ -1,4 +1,4 @@
-# Reddit Graph Embeddding API
+# Reddit GNN Ranking API
 
 This project provides a FastAPI-based API for ranking Reddit posts using graph embeddings. It leverages a heterogeneous graph model (HeteroRGCN) to compute embeddings for users and posts, and uses Redis for caching these embeddings.
 
