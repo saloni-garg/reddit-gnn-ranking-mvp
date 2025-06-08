@@ -79,7 +79,3 @@ The API will be available at `http://localhost:8001`.
 - **Latency**: Average response time for ranking requests
 - **Throughput**: Number of requests processed per second
 - **Cache Hit Rate**: Percentage of embedding requests served from Redis cache
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
