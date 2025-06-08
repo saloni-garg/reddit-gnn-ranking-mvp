@@ -4,7 +4,7 @@ This project provides a FastAPI-based API for ranking Reddit posts using graph e
 
 ## Architecture Diagram
 
-Below is a detailed architecture diagram for this project:
+Belw is a detailed architecture diagram for this project:
 
 ```mermaid
 graph TD
@@ -79,29 +79,6 @@ The API will be available at `http://localhost:8001`.
 - **Latency**: Average response time for ranking requests
 - **Throughput**: Number of requests processed per second
 - **Cache Hit Rate**: Percentage of embedding requests served from Redis cache
-
-## 🔄 CI/CD Pipeline
-
-- **GitHub Actions**: Automated testing and deployment
-- **Docker**: Containerized deployment for consistent environments
-
-## 📈 A/B Testing Framework
-
-- **Feature Flags**: Toggle new ranking algorithms
-- **Metrics Collection**: Compare performance of different ranking strategies
-
-## 📚 Documentation
-
-- **API Documentation**: Available at `/docs` when the server is running
-- **Code Documentation**: Inline comments and docstrings
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## 📄 License
 
